@@ -1,89 +1,474 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        <meta charset="UTF-8">
+        <title>Introduction | api-route-zero</title>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="API Route Zero : A practical guide to running an API program in an enterprise setting" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="pmotch">
+        <meta name="description" content="A practical guide to running an API program in an enterprise setting">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        
+        <link rel="next" href="./getting_started/README.html" />
+        
+        
 
-    <title>API Route Zero</title>
-  </head>
+        <meta property="og:title" content="Introduction | api-route-zero">
+        <meta property="og:site_name" content="api-route-zero">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
 
-  <body>
+        <meta property="book:author" content="https://github.com/pmotch">
+        <meta property="book:tag" content="GitBook">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/pmotch/api-route-zero">View on GitHub</a>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-          <h1 id="project_title">API Route Zero</h1>
-          <h2 id="project_tagline">A practical guide to running an API program in an enterprise setting</h2>
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    </head>
+    <body>
+        
+    <div class="book" data-github="pmotch/api-route-zero" data-level="0" data-basepath="." data-revision="1397532303924">
+    <div class="book-header">
+    <!-- Actions Left -->
+    
+    <a href="https://github.com/pmotch/api-route-zero" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/pmotch/api-route-zero/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/pmotch/api-route-zero/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+    <!-- Actions Right -->
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
+
+    
+    <a href="https://github.com/pmotch/api-route-zero/stargazers" target="_blank" class="btn pull-right count-star"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/pmotch/api-route-zero/watchers" target="_blank" class="btn pull-right count-watch"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+    
+
+    <!-- Title -->
+    <h1><a href="./" >api-route-zero</a></h1>
+</div>
+
+    <div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
     </div>
+    <ul class="summary">
+        
+        <li>
+            <a href="https://github.com/pmotch" target="blank">About the author</a>
+        </li>
+        <li>
+            <a href="https://github.com/pmotch/api-route-zero/issues" target="blank">Questions and Issues</a>
+        </li>
+        <li>
+            <a href="https://github.com/pmotch/api-route-zero/edit/master/README.md" target="blank">Edit and Contribute</a>
+        </li>
+        <li class="divider"></li>
+        
+        <li data-level="0" data-path="index.html">
+            <a href="./"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+            <li  data-level="1" data-path="getting_started/README.html">
+                
+                <a href="./getting_started/README.html">
+                    <i class="fa fa-check"></i> <b>1.</b> Getting Started
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="1.1" data-path="getting_started/is_this_book_right_for_me.html">
+                            
+                            <a href="./getting_started/is_this_book_right_for_me.html">
+                                <i class="fa fa-check"></i> <b>1.1.</b> Is this book right for me?
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.2" data-path="basics/variables.html">
+                            
+                            <a href="./basics/variables.html">
+                                <i class="fa fa-check"></i> <b>1.2.</b> APIs Matter
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="2" data-path="api_program/README.html">
+                
+                <a href="./api_program/README.html">
+                    <i class="fa fa-check"></i> <b>2.</b> API Program
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="2.1" data-path="api_program/enterprise_hurdles.html">
+                            
+                            <a href="./api_program/enterprise_hurdles.html">
+                                <i class="fa fa-check"></i> <b>2.1.</b> Enterprise Hurdles
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="2.2" data-path="api_program/building_your_team.html">
+                            
+                            <a href="./api_program/building_your_team.html">
+                                <i class="fa fa-check"></i> <b>2.2.</b> Building Your Team
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="2.3" data-path="api_program/culture.html">
+                            
+                            <a href="./api_program/culture.html">
+                                <i class="fa fa-check"></i> <b>2.3.</b> Culture
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="2.4" data-path="api_program/project_management.html">
+                            
+                            <a href="./api_program/project_management.html">
+                                <i class="fa fa-check"></i> <b>2.4.</b> Project Management
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="3" data-path="functional_design/README.html">
+                
+                <a href="./functional_design/README.html">
+                    <i class="fa fa-check"></i> <b>3.</b> Functional Design
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="3.1" data-path="functional_design/modeling_your_api.html">
+                            
+                            <a href="./functional_design/modeling_your_api.html">
+                                <i class="fa fa-check"></i> <b>3.1.</b> Modeling Your API
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.2" data-path="functional_design/design_documentation.html">
+                            
+                            <a href="./functional_design/design_documentation.html">
+                                <i class="fa fa-check"></i> <b>3.2.</b> Design Documentation
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.3" data-path="functional_design/versioning.html">
+                            
+                            <a href="./functional_design/versioning.html">
+                                <i class="fa fa-check"></i> <b>3.3.</b> Versioning
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.4" data-path="functional_design/releasing.html">
+                            
+                            <a href="./functional_design/releasing.html">
+                                <i class="fa fa-check"></i> <b>3.4.</b> Releasing
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="4" data-path="technical_design/README.html">
+                
+                <a href="./technical_design/README.html">
+                    <i class="fa fa-check"></i> <b>4.</b> Technical Design
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="4.1" data-path="design/api_development_is_web_development.html">
+                            
+                            <a href="./design/api_development_is_web_development.html">
+                                <i class="fa fa-check"></i> <b>4.1.</b> API Development is Web Development!
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.2" data-path="technical_design/versioning.html">
+                            
+                            <a href="./technical_design/versioning.html">
+                                <i class="fa fa-check"></i> <b>4.2.</b> Versioning
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="5" data-path="development/README.html">
+                
+                <a href="./development/README.html">
+                    <i class="fa fa-check"></i> <b>5.</b> Development
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="5.1" data-path="development/stack.html">
+                            
+                            <a href="./development/stack.html">
+                                <i class="fa fa-check"></i> <b>5.1.</b> Stack Overview
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="5.2" data-path="development/continuous_integration.html">
+                            
+                            <a href="./development/continuous_integration.html">
+                                <i class="fa fa-check"></i> <b>5.2.</b> Continuous Integration
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="5.3" data-path="development/testing.html">
+                            
+                            <a href="./development/testing.html">
+                                <i class="fa fa-check"></i> <b>5.3.</b> Testing
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="5.4" data-path="development/performance_testing.html">
+                            
+                            <a href="./development/performance_testing.html">
+                                <i class="fa fa-check"></i> <b>5.4.</b> Performance Testing
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="5.5" data-path="development/infrastructure.html">
+                            
+                            <a href="./development/infrastructure.html">
+                                <i class="fa fa-check"></i> <b>5.5.</b> Infrastructure
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="6" data-path="ops/README.html">
+                
+                <a href="./ops/README.html">
+                    <i class="fa fa-check"></i> <b>6.</b> Ops
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="6.1" data-path="ops/monitoring.html">
+                            
+                            <a href="./ops/monitoring.html">
+                                <i class="fa fa-check"></i> <b>6.1.</b> Log Monitoring
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.2" data-path="ops/synthetic_transaction_monitoring.html">
+                            
+                            <a href="./ops/synthetic_transaction_monitoring.html">
+                                <i class="fa fa-check"></i> <b>6.2.</b> Synthetic Transaction Monitoring
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.3" data-path="ops/alerting.html">
+                            
+                            <a href="./ops/alerting.html">
+                                <i class="fa fa-check"></i> <b>6.3.</b> Alerting
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.4" data-path="ops/chatops.html">
+                            
+                            <a href="./ops/chatops.html">
+                                <i class="fa fa-check"></i> <b>6.4.</b> ChatOps
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="7" data-path="promoting/README.html">
+                
+                <a href="./promoting/README.html">
+                    <i class="fa fa-check"></i> <b>7.</b> Promoting Your API
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="7.1" data-path="promoting/api_documentation.html">
+                            
+                            <a href="./promoting/api_documentation.html">
+                                <i class="fa fa-check"></i> <b>7.1.</b> API Documentation
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="7.2" data-path="promoting/inside_your_company.html">
+                            
+                            <a href="./promoting/inside_your_company.html">
+                                <i class="fa fa-check"></i> <b>7.2.</b> Inside Your Company
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="7.3" data-path="promoting/external_partners.html">
+                            
+                            <a href="./promoting/external_partners.html">
+                                <i class="fa fa-check"></i> <b>7.3.</b> External Partners
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+    </ul>
+</div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 0%;min-width: 0%;"></div>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">API Route Zero maintained by <a href="https://github.com/pmotch">pmotch</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="chapters">
+    
+        <a href="./index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="./getting_started/README.html" title="Getting Started" class="chapter  new-chapter" data-progress="1" style="left: 3.225806451612903%;"></a>
+    
+        <a href="./getting_started/is_this_book_right_for_me.html" title="Is this book right for me?" class="chapter  " data-progress="1.1" style="left: 6.451612903225806%;"></a>
+    
+        <a href="./basics/variables.html" title="APIs Matter" class="chapter  " data-progress="1.2" style="left: 9.67741935483871%;"></a>
+    
+        <a href="./api_program/README.html" title="API Program" class="chapter  new-chapter" data-progress="2" style="left: 12.903225806451612%;"></a>
+    
+        <a href="./api_program/enterprise_hurdles.html" title="Enterprise Hurdles" class="chapter  " data-progress="2.1" style="left: 16.129032258064516%;"></a>
+    
+        <a href="./api_program/building_your_team.html" title="Building Your Team" class="chapter  " data-progress="2.2" style="left: 19.35483870967742%;"></a>
+    
+        <a href="./api_program/culture.html" title="Culture" class="chapter  " data-progress="2.3" style="left: 22.580645161290324%;"></a>
+    
+        <a href="./api_program/project_management.html" title="Project Management" class="chapter  " data-progress="2.4" style="left: 25.806451612903224%;"></a>
+    
+        <a href="./functional_design/README.html" title="Functional Design" class="chapter  new-chapter" data-progress="3" style="left: 29.032258064516128%;"></a>
+    
+        <a href="./functional_design/modeling_your_api.html" title="Modeling Your API" class="chapter  " data-progress="3.1" style="left: 32.25806451612903%;"></a>
+    
+        <a href="./functional_design/design_documentation.html" title="Design Documentation" class="chapter  " data-progress="3.2" style="left: 35.483870967741936%;"></a>
+    
+        <a href="./functional_design/versioning.html" title="Versioning" class="chapter  " data-progress="3.3" style="left: 38.70967741935484%;"></a>
+    
+        <a href="./functional_design/releasing.html" title="Releasing" class="chapter  " data-progress="3.4" style="left: 41.935483870967744%;"></a>
+    
+        <a href="./technical_design/README.html" title="Technical Design" class="chapter  new-chapter" data-progress="4" style="left: 45.16129032258065%;"></a>
+    
+        <a href="./design/api_development_is_web_development.html" title="API Development is Web Development!" class="chapter  " data-progress="4.1" style="left: 48.38709677419355%;"></a>
+    
+        <a href="./technical_design/versioning.html" title="Versioning" class="chapter  " data-progress="4.2" style="left: 51.61290322580645%;"></a>
+    
+        <a href="./development/README.html" title="Development" class="chapter  new-chapter" data-progress="5" style="left: 54.83870967741935%;"></a>
+    
+        <a href="./development/stack.html" title="Stack Overview" class="chapter  " data-progress="5.1" style="left: 58.064516129032256%;"></a>
+    
+        <a href="./development/continuous_integration.html" title="Continuous Integration" class="chapter  " data-progress="5.2" style="left: 61.29032258064516%;"></a>
+    
+        <a href="./development/testing.html" title="Testing" class="chapter  " data-progress="5.3" style="left: 64.51612903225806%;"></a>
+    
+        <a href="./development/performance_testing.html" title="Performance Testing" class="chapter  " data-progress="5.4" style="left: 67.74193548387096%;"></a>
+    
+        <a href="./development/infrastructure.html" title="Infrastructure" class="chapter  " data-progress="5.5" style="left: 70.96774193548387%;"></a>
+    
+        <a href="./ops/README.html" title="Ops" class="chapter  new-chapter" data-progress="6" style="left: 74.19354838709677%;"></a>
+    
+        <a href="./ops/monitoring.html" title="Log Monitoring" class="chapter  " data-progress="6.1" style="left: 77.41935483870968%;"></a>
+    
+        <a href="./ops/synthetic_transaction_monitoring.html" title="Synthetic Transaction Monitoring" class="chapter  " data-progress="6.2" style="left: 80.64516129032258%;"></a>
+    
+        <a href="./ops/alerting.html" title="Alerting" class="chapter  " data-progress="6.3" style="left: 83.87096774193549%;"></a>
+    
+        <a href="./ops/chatops.html" title="ChatOps" class="chapter  " data-progress="6.4" style="left: 87.09677419354838%;"></a>
+    
+        <a href="./promoting/README.html" title="Promoting Your API" class="chapter  new-chapter" data-progress="7" style="left: 90.3225806451613%;"></a>
+    
+        <a href="./promoting/api_documentation.html" title="API Documentation" class="chapter  " data-progress="7.1" style="left: 93.54838709677419%;"></a>
+    
+        <a href="./promoting/inside_your_company.html" title="Inside Your Company" class="chapter  " data-progress="7.2" style="left: 96.7741935483871%;"></a>
+    
+        <a href="./promoting/external_partners.html" title="External Partners" class="chapter  " data-progress="7.3" style="left: 100%;"></a>
+    
     </div>
+</div>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-46111410-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_1">
+                    
+                        <h1 id="api-route-zero">api-route-zero</h1>
+<p>A practical guide to running an API program in an enterprise setting</p>
 
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
 
-  </body>
+        
+        
+        <a href="./getting_started/README.html" class="navigation navigation-next"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+        <link rel="stylesheet" href="gitbook/style.css">
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="gitbook/app.js"></script>
+        
+    </body>
 </html>
