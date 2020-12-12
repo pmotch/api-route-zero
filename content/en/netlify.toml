@@ -1,5 +1,8 @@
 [context.production.environment]
   HUGO_VERSION = "0.79"
 
-  [context.deploy-preview.environment]
+[context.deploy-preview.environment]
   HUGO_VERSION = "0.79"
+
+[build]
+command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo"
