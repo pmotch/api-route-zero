@@ -100,9 +100,9 @@ version = "1.0"
 url_latest_version = "https://apiroutezero.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/pmotch/api-route-zero"
+# github_repo = "https://github.com/pmotch/api-route-zero"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/pmotch/api-route-zero"
+# github_project_repo = "https://github.com/pmotch/api-route-zero"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -124,7 +124,7 @@ prism_syntax_highlighting = true
 # Enable to show the side bar menu in its compact state.
 sidebar_menu_compact = false
 #  Set to true to disable breadcrumb navigation.
-breadcrumb_disable = false
+breadcrumb_disable = true
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
 #  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
