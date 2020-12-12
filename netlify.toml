@@ -5,4 +5,4 @@
   HUGO_VERSION = "0.79.0"
 
 [build]
-command = "cd themes/docsy && git submodule update -f --init && npm install -g postcss-cli && cd ../.. && hugo"
+command = "cd themes/docsy && git submodule update -f --init && cd ../.. && npm install postcss-cli && hugo"
