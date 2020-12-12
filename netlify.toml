@@ -4,5 +4,5 @@
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.79.0"
 
-# [build]
-# command = "cd themes/docsy && git submodule update -f --init && cd ../.. && npm install postcss-cli && hugo"
+[build]
+command = "cd themes/docsy && git submodule update -f --init && cd ../.. && npm init -y && npm install -D --save autoprefixer && npm install -D --save postcss-cli && npm install -D --save postcss && ls -la && hugo"
