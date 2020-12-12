@@ -1,2 +1,3 @@
-/_book/
-
+/public
+/resources
+.DS_Store
